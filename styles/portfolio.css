@@ -77,12 +77,23 @@ nav a {
 
 /* Main section style */
 
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-around ;
+}
+.about-info{
+    text-align: center;
+}
 /* about section style */
 .about {
   padding: 100px;
   border-radius: 10px;
   background: #fff8f3;
-  margin: 130px 230px;
+  margin: 130px 0px;
 }
 .section-title {
   color: var(--dark-01, #181818);
